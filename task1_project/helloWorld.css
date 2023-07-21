@@ -1,0 +1,30 @@
+/*This is a CSS program for styling the helloWorld page.*/
+
+/*Set the parameters for the page body, headings and background colour.*/
+body{
+    background-color: darkslategray;
+    text-align: center;
+    color: floralwhite;
+}
+
+h1{
+    font-family: Times New Roman;
+    font: small-caps;
+    color: red;
+}
+
+h3{
+    font-family: cursive;
+    font: italic;
+}
+
+button, input{
+    border-radius: 5px;
+    font-family: Times New Roman;
+    
+}
+
+/*Set the transformation effect for the submission button.*/
+button:hover{
+    transform: scale(1.2);
+}
